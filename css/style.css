@@ -368,12 +368,13 @@ header .follow a:hover{
 
 .experience .box-container{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
 }
 
 .experience .box-container .box{
     position: relative;
-    flex:1 1 33rem;
+    flex:1 1 20rem;
     border-left: .2rem solid var(--main-color);
     padding-left: 2rem;
     padding-right: 2rem;
